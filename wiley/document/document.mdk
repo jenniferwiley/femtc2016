@@ -1,18 +1,18 @@
 [INCLUDE=style/lncs]
-Title         : TITLE OF YOUR PAPER, IN CAPITAL LETTERS CENTERED ON PAGE, USING ONE OR MORE LINES AS NECESSARY
-Subtitle      : An optional subtitle.
+Title         : PEOPLE MOVEMENT MODELING: CAPABILITIES AND EXPANSION OF CURRENT MODELS FOR BROADER AND MORE ROBUST USES
+Subtitle      : 
 
-Author        : First Author Name
-Affiliation   : Research institute
-Email         : you@bar.com
+Author        : Jennifer Wiley
+Affiliation   : JENSEN HUGHES
+Email         : jwiley@jensenhughes.com
 
-Author        : My co-author 1
-Affiliation   : Other institute
-Email         : other1@bar.com
+Author        : Michael Ferreira
+Affiliation   : JENSEN HUGHES
+Email         : mferreira@jensenhughes.com
 
-Author        : My co-author 2
-Affiliation   : Other institute
-Email         : other2@bar.com
+Author        : Steven Strege
+Affiliation   : JENSEN HUGHES
+Email         : sstrege@jensenhughes.com
 
 Bibliography  : references.bib
 Logo          : False
@@ -23,10 +23,19 @@ name-references : REFERENCES
 [TITLE]
 
 ~ Abstract
-Papers should follow standard technical paper format, an abstract
-followed by the more detailed presentation. The abstract should be typed
-on this area of the first page, with the presentation following after two
-lines of space.
+Traditionally, people movement models have been developed with a focus on
+modeling evacuation in the case of a fire emergency. However, as the
+models and the industry have progressed, the needs of the people movement
+modeling community have expanded to include capabilities for non-fire
+emergencies and non-emergency scenarios such as ingress and circulation.
+Advances in wayfinding and decision-making technologies also provide an
+opportunity to improve people movement within a building but have not
+been fully integrated into existing models. Additionally, as models
+continue to be used for both emergency and non-emergency uses, the
+ability to represent more complex and realistic movements and agendas,
+such as carrying rolling luggage or group movement, have been identified
+and researched. These scenarios provide novel uses for existing egress
+models as well as present unique challenges.
 ~
 
 [editor]: https://www.madoko.net/editor.html "Madoko.net Editor"
@@ -34,22 +43,21 @@ lines of space.
 [femtc2016]: https://github.com/thunderheadeng/femtc2016
 [emaillink]: mailto:conference@thunderheadeng.com "conference@thunderheadeng.com"
 
-# GENERAL INSTRUCTIONS { #sec-intro }
-You are encouraged to use the [Madoko.net Editor][editor] while using
-the [Madoko Reference Manual][reference-manual] to edit/commit your
-documents into the 'authoring' branch of the [femtc2016] GitHub repository. 
-More information about this method of contribution will be covered below.
+# INTRODUCTION { #sec-intro }
 
-Text styling, links, sub- and super-script, footnotes and other topics
-are covered in section [Syntax: Inline
-elements](http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html#sec-syntax--inline-elements)
-of the manual.
+# CURRENT CAPABILITIES { #sec-current }
 
-Headings, Figures and Tables, Lists, Code Blocks, Mathematics, etc. are
-covered in section [Syntax: Block
-elements](http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html#sec-syntax--block-elements)
-of the manual.
+# NEW USES { #sec-newuse }
 
+## Ingress and Security
+
+## Dynamic Signage and Wayfinding
+
+## Tasks
+
+# ADAPTATIONS { #sec-adapt }
+
+# CONCLUSIONS
 The target length for submitted and invited papers is about eight pages.
 This length includes all figures and tables. However, because the
 Proceedings will not be printed on paper, there is no maximum limit on
